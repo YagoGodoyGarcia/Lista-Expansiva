@@ -1,0 +1,110 @@
+body {
+  height: auto;
+  --font-family: sans-serif;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  background: #9cd6fd;
+}
+
+
+.container-wrapper {
+  border: solid rgb(95, 95, 95) 1px;
+}
+
+.container {
+  background-color: #fff;
+  height: auto;
+  width: 100%;
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  height: inherit;
+}
+
+.list {
+  height: 650px;
+  width: 88%;
+  overflow: hidden scroll;
+  border-radius: 5px;
+  
+}
+
+.header {
+  display: flex;
+  color: black;
+  align-items: center;
+  height: 60px;
+  justify-content: space-between;
+}
+
+.container-body {
+  padding-left: 28px;
+}
+
+input {
+  display: flex;
+  align-items: center;
+  width: 30px;
+  height: 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.header label {
+  cursor: pointer;
+}
+
+.left-content {
+  display: flex;
+  align-items: center;
+}
+
+.description {
+  margin-left: 15px;
+}
+
+.icon-wrapper {
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  width: 5%;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  height: 20px;
+  transition: all 0.10s 0.10s;
+}
+
+.icon-up {
+  transform: rotate(180deg);
+}
+
+.icon-down {
+  transform: rotate(0deg);
+}
+
+.page-header {
+  margin: 40px 0 80px;
+  text-align: center;
+}
+
+.page-title {
+  font-size: 26px;
+  font-weight: 500;
+  color: rgb(95, 95, 95);
+}
+
+.page-headline {
+  padding-top: 10px;
+  font-size: 36px;
+  font-weight: 700;
+  color: rgb(95, 95, 95);
+}
+
