@@ -28,4 +28,4 @@ Também no diretório do projeto, você pode executar:
 
 Abra [http://localhost:3000]
 
-### [Demo]()
+### [Demo](https://hiplataform.herokuapp.com/)
